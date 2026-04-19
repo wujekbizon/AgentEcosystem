@@ -25,7 +25,7 @@
   --algae:             #18332F;
   --algae-light:       #1f4039;
   --phosphor:          #9DFFB0;
-  --membrane:          #E6F4F1;
+  --membrane:          #ffffff;
   --membrane-dim:      rgba(230, 244, 241, 0.55);
   --membrane-faint:    rgba(230, 244, 241, 0.15);
   --phosphor-dim:      rgba(157, 255, 176, 0.25);
@@ -99,7 +99,6 @@ hr { border: none; border-top: 1px solid var(--border-algae); margin: 2rem 0; }
   background: radial-gradient(ellipse at center, transparent 30%, rgba(3, 5, 8, 0.75) 100%);
 }
 
-/* Node & connection animations */
 @keyframes nodePulse {
   0%, 100% { opacity: 0.25; }
   50%       { opacity: 0.65; }
@@ -123,7 +122,7 @@ hr { border: none; border-top: 1px solid var(--border-algae); margin: 2rem 0; }
 .container {
   max-width: 1280px;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
   position: relative;
   z-index: 2;
 }
@@ -653,7 +652,7 @@ hr { border: none; border-top: 1px solid var(--border-algae); margin: 2rem 0; }
   font-size: 0.9rem;
   letter-spacing: -0.02em;
   color: var(--membrane);
-  opacity: 0.5;
+  opacity: 0.8;
 }
 .footer-copy {
   font-family: var(--font-mono);
@@ -661,7 +660,7 @@ hr { border: none; border-top: 1px solid var(--border-algae); margin: 2rem 0; }
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--membrane);
-  opacity: 0.2;
+  opacity: 0.8;
   margin: 0;
 }
 .site-footer a { color: var(--membrane); opacity: 0.6; }

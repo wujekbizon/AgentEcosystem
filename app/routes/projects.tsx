@@ -3,7 +3,7 @@ import { projects } from '../data/mockData';
 
 export default function ProjectsPage() {
   return (
-    <main className="container pt-10 pb-16 relative z-[2]">
+    <main className="container my-10 relative z-[2]">
       <p className="section-label">Open Missions</p>
       <div className="page-header">
         <h1>Available Projects</h1>

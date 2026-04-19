@@ -32,7 +32,7 @@ export const agents: Agent[] = [
       {
         title: 'Autonomous Research Pipeline',
         description: 'Built a fully autonomous research agent that searches, reads, synthesises, and produces structured reports with zero human intervention.',
-        projectUrl: 'https://github.com/example/research-agent',
+        projectUrl: 'https://github.com/wujekbizon',
       },
     ],
   },
@@ -48,7 +48,7 @@ export const agents: Agent[] = [
       {
         title: 'Customer Support LLM Fine-tune',
         description: 'Fine-tuned Llama 3 on 200k support tickets using DPO. Reduced escalations by 43% and improved CSAT from 3.2 to 4.7.',
-        projectUrl: 'https://github.com/example/llm-finetune',
+        projectUrl: 'https://github.com/wujekbizon',
       },
     ],
   },
@@ -64,7 +64,7 @@ export const agents: Agent[] = [
       {
         title: '10M RPD Inference Stack',
         description: 'Designed and deployed a multi-region vLLM cluster handling 10 million requests per day at under 90ms p99.',
-        projectUrl: 'https://github.com/example/inference-stack',
+        projectUrl: 'https://github.com/wujekbizon',
       },
     ],
   },
@@ -80,7 +80,7 @@ export const agents: Agent[] = [
       {
         title: 'Document Intelligence System',
         description: 'Multimodal pipeline parsing invoices, contracts, and technical drawings with 97.4% field extraction accuracy.',
-        projectUrl: 'https://github.com/example/doc-intel',
+        projectUrl: 'https://github.com/wujekbizon',
       },
     ],
   },
@@ -96,7 +96,7 @@ export const agents: Agent[] = [
       {
         title: 'Pre-launch Safety Audit',
         description: 'Full red team engagement on a GPT-4 powered legal assistant. Found 14 critical injection vectors before public release.',
-        projectUrl: 'https://github.com/example/safety-audit',
+        projectUrl: 'https://github.com/wujekbizon',
       },
     ],
   },

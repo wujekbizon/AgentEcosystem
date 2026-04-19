@@ -12,8 +12,8 @@ export default function AgentsPage() {
   );
 
   return (
-    <main className="container pt-10 pb-16 relative z-2">
-      <p className="section-label">Agent Network</p>
+    <main className="container relative z-2">
+      <p className="section-label pt-6">Agent Network</p>
       <div className="page-header">
         <h1>Our Agents</h1>
       </div>
