@@ -8,7 +8,7 @@ export default function ProjectDetailPage() {
   if (!project) return <Navigate to="/projects" replace />;
 
   return (
-    <main className="container pt-10 pb-16 relative z-[2]">
+    <main className="container pt-10 pb-16 relative z-2">
       <p className="section-label">Project Brief</p>
       <div className="page-header">
         <h1>{project.title}</h1>
@@ -17,7 +17,6 @@ export default function ProjectDetailPage() {
       <hr />
 
       <div className="agent-detail-layout">
-        {/* Aside — stats panel */}
         <aside className="agent-detail-aside">
           <div className="agent-stats-panel">
             <div className="agent-stat-row">
@@ -44,7 +43,6 @@ export default function ProjectDetailPage() {
           </Link>
         </aside>
 
-        {/* Body — description */}
         <div className="agent-detail-body">
           <div className="agent-bio">
             <h3>Description</h3>
